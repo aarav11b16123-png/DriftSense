@@ -1,0 +1,119 @@
+{
+  "accuracy": {
+    "NONE": {
+      "accuracy": 0.0,
+      "trials": 30
+    },
+    "SCALE": {
+      "accuracy": 1.0,
+      "trials": 30
+    },
+    "LOCATION": {
+      "accuracy": 1.0,
+      "trials": 30
+    },
+    "VARIANCE": {
+      "accuracy": 0.0,
+      "trials": 30
+    },
+    "MISSING": {
+      "accuracy": 1.0,
+      "trials": 30
+    },
+    "STUCK": {
+      "accuracy": 0.0,
+      "trials": 30
+    },
+    "NEW_UNSEEN": {
+      "accuracy": 0.0,
+      "trials": 30
+    },
+    "OUT_OF_RANGE": {
+      "accuracy": 1.0,
+      "trials": 30
+    }
+  },
+  "confusion_matrix": {
+    "NONE": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 9,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 0,
+      "NONE": 0,
+      "GRADUAL_OR_SEASONAL_SHIFT": 21
+    },
+    "SCALE": {
+      "SCALE_OR_UNIT_CHANGE": 30,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 0,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 0,
+      "NONE": 0
+    },
+    "LOCATION": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 30,
+      "VARIANCE_CHANGE": 0,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 0,
+      "NONE": 0
+    },
+    "VARIANCE": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 0,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 30,
+      "NONE": 0
+    },
+    "MISSING": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 0,
+      "MISSING_VALUES_INCREASED": 30,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 0,
+      "NONE": 0
+    },
+    "STUCK": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 30,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 0,
+      "NONE": 0
+    },
+    "NEW_UNSEEN": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 0,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 30,
+      "NONE": 0
+    },
+    "OUT_OF_RANGE": {
+      "SCALE_OR_UNIT_CHANGE": 0,
+      "LOCATION_SHIFT": 0,
+      "VARIANCE_CHANGE": 0,
+      "MISSING_VALUES_INCREASED": 0,
+      "STUCK_OR_CONSTANT_VALUE": 0,
+      "NEW_OR_UNSEEN_VALUES": 0,
+      "OUT_OF_RANGE_VALUES": 30,
+      "NONE": 0
+    }
+  }
+}
