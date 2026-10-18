@@ -55,10 +55,10 @@ Most tools stop at step 1. Step 2 is the focus of this project.
 | Measure | What it tells you | Drift rule used |
 |---|---|---|
 | **PSI** (Population Stability Index) | How much the share of values in each bucket changed | Below 0.10 stable, 0.10 to 0.25 moderate, above 0.25 major |
-| **KS test** | Whether the two distributions differ, with a p-value | p-value below `<!-- TODO: your alpha, e.g. 0.05 -->` |
-| **Jensen-Shannon divergence** | A symmetric distance between two distributions | `<!-- TODO: threshold -->` (bounded by ln 2 when natural log is used) |
-| **Wasserstein distance** | How far values moved, divided by `<!-- TODO: state your normalisation, e.g. reference std -->` | `<!-- TODO: threshold -->` |
-| **Evidently dataset drift** | Share of columns that drifted, and an overall yes/no | Evidently default settings (version: `<!-- TODO -->`) |
+| **KS test** | Whether the two distributions differ, with a p-value | p-value below |
+| **Jensen-Shannon divergence** | A symmetric distance between two distributions| 
+| **Wasserstein distance** | How far values moved, divided by  | |
+| **Evidently dataset drift** | Share of columns that drifted, and an overall yes/no | Evidently default settings (version: ``) |
 
 **Streaming:** ADWIN keeps a moving window of recent values for each feature. When the older and newer parts of the window have clearly different averages, it raises a drift alert and resets.
 
@@ -164,8 +164,11 @@ Python, Streamlit, FastAPI, Uvicorn, River (ADWIN), Evidently AI, SciPy, scikit-
 
 
 
-##Author
 
+
+
+
+##  AUTHOR
 - Aarav Chaudhary
 
 
